@@ -76,7 +76,22 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(67, 89, 113, 0);
 }
-
+.div-alerta{
+  text-align:center;
+  width: 100%;
+  padding:3px;
+  position: fixed;
+  top: 15px;
+  left: 0px;
+  z-index: 99999;
+}
+.div-alerta .alert{
+  text-align:left;
+  width: 35rem;
+  display: inline-block;
+  display:none;
+  box-shadow: 0px 0px 10px 0px #0000004a;
+}
 hr {
   margin: 1rem 0;
   color: #d9dee3;

@@ -639,8 +639,8 @@ a:hover {
 
 .layout-navbar {
   background-color:rgb(255 255 255 / 0%) !important /* rgba(255, 255, 255, 0.95)*/ ; 
-  -webkit-backdrop-filter: saturate(200%) blur(6px);
-          backdrop-filter: saturate(200%) blur(6px);
+  /* -webkit-backdrop-filter: saturate(200%) blur(6px);
+          backdrop-filter: saturate(200%) blur(6px); */
 }
 
 .navbar-detached {
